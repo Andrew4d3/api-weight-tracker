@@ -1,0 +1,31 @@
+{
+  "name": "api-weight-tracker",
+  "version": "1.0.0",
+  "description": "Simple API for ng-weight-tracker",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andrew4d3/api-weight-tracker.git"
+  },
+  "keywords": [
+    "api",
+    "crud",
+    "weight-tracker"
+  ],
+  "author": "Andrew4d3",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Andrew4d3/api-weight-tracker/issues"
+  },
+  "homepage": "https://github.com/Andrew4d3/api-weight-tracker#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "node-json-db": "^0.10.0",
+    "uuid": "^3.3.2"
+  }
+}
