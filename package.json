@@ -24,6 +24,7 @@
   "homepage": "https://github.com/Andrew4d3/api-weight-tracker#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
     "express": "^4.16.4",
     "node-json-db": "^0.10.0",
     "uuid": "^3.3.2"

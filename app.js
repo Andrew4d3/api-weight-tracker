@@ -2,12 +2,15 @@ const express = require("express");
 const JsonDB = require("node-json-db");
 const uuidv1 = require("uuid/v1");
 const bodyParser = require("body-parser");
+const cors = require("cors");
 
 const app = express();
 
 // Getting Fake DB
 const db = new JsonDB("myDB", true, true);
 
+// Enabling cors
+app.use(cors());
 // Setting Body Parse
 app.use(bodyParser.json());
 
